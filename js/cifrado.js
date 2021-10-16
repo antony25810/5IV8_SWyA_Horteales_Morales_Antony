@@ -37,7 +37,7 @@ function verificar(clave, eleccion){
         alert("La clave debe de ser de longitud menor o igual a 24 caracteres y mayor a 16 caracteres");
         return false;
     }
-    if(eleccion == "AES-256" && longitud <= 34){
+    if(eleccion == "AES-256" && longitud <= 24){
         alert("La clave debe de ser de longitud mayor a 24 caracteres");
         return false;
     }
